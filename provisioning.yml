@@ -1,5 +1,5 @@
 - hosts: all
+- name: Teste
+  become: yes
   tasks:
-          - name: Teste
-            become: yes
           - shell: 'echo hello > /home/teste.txt'
